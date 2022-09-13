@@ -35,7 +35,7 @@ function Banner() {
     <div className={classes.banner}>
       <Container className={classes.bannerContent}>
         <div className={classes.tagline}>
-          <Typography
+          {/* <Typography
             variant="h2"
             style={{
               fontWeight: "bold",
@@ -44,7 +44,7 @@ function Banner() {
             }}
           >
             CRYPTOPOKO
-          </Typography>
+          </Typography> */}
           <Typography
             variant="subtitle2"
             style={{
