@@ -90,7 +90,7 @@ export default function CoinsTable() {
             <LinearProgress style={{ backgroundColor: "#5CB8E4" }} />
           ) : (
             <Table aria-label="simple table">
-              <TableHead style={{ backgroundColor: "#EEBC1D" }}>
+              <TableHead style={{ backgroundColor: "#5CB8E4" }}>
                 <TableRow>
                   {["Coin", "Price", "24h Change", "Market Cap"].map((head) => (
                     <TableCell
