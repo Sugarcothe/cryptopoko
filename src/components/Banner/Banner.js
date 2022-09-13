@@ -8,7 +8,7 @@ const useStyles = makeStyles((theme) => ({
     backgroundImage: "url(./banner2.jpg)",
   },
   bannerContent: {
-    height: 500,
+    height: 300,
     display: "flex",
     flexDirection: "column",
     paddingTop: 25,

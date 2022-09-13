@@ -138,7 +138,7 @@ const CoinPage = () => {
         <img
           src={coin?.image.large}
           alt={coin?.name}
-          height="200"
+          height="300"
           style={{ marginBottom: 20 }}
         />
         <Typography variant="h3" className={classes.heading}>
