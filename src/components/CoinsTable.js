@@ -40,7 +40,7 @@ export default function CoinsTable() {
     },
     pagination: {
       "& .MuiPaginationItem-root": {
-        color: "gold",
+        color: "#5CB8E4",
       },
     },
   });
@@ -87,7 +87,7 @@ export default function CoinsTable() {
         />
         <TableContainer component={Paper}>
           {loading ? (
-            <LinearProgress style={{ backgroundColor: "gold" }} />
+            <LinearProgress style={{ backgroundColor: "#5CB8E4" }} />
           ) : (
             <Table aria-label="simple table">
               <TableHead style={{ backgroundColor: "#EEBC1D" }}>

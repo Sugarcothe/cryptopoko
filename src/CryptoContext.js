@@ -8,7 +8,7 @@ import { auth, db } from "./firebase";
 const Crypto = createContext();
 
 const CryptoContext = ({ children }) => {
-  const [currency, setCurrency] = useState("INR");
+  const [currency, setCurrency] = useState("USD");
   const [symbol, setSymbol] = useState("₹");
   const [coins, setCoins] = useState([]);
   const [loading, setLoading] = useState(false);
@@ -47,8 +47,8 @@ const CryptoContext = ({ children }) => {
   });
 
   useEffect(() => {
-    if (currency === "INR") setSymbol("₹");
-    else if (currency === "USD") setSymbol("$");
+    // if (currency === "INR") setSymbol("₹");
+    if (currency === "USD") setSymbol("$");
     else if (currency === "GBP") setSymbol("£");
   }, [currency]);
 

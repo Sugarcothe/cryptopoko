@@ -63,7 +63,7 @@ const CoinInfo = ({ coin }) => {
       <div className={classes.container}>
         {!historicData | (flag === false) ? (
           <CircularProgress
-            style={{ color: "gold" }}
+            style={{ color: "#5CB8E4" }}
             size={250}
             thickness={1}
           />
